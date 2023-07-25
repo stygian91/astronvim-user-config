@@ -27,4 +27,7 @@ return {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
   },
+  v = {
+    ["<leader>a"] = { ":!column -t -s= -o= <cr><cr>", desc = "Tabular align" }
+  },
 }
